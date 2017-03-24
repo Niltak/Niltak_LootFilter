@@ -1,0 +1,208 @@
+﻿# Script edited with Filtration - https://github.com/ben-wallis/Filtration
+# Section: Most Value
+
+Show
+    LinkedSockets = 6
+    SetTextColor 128 0 128
+    SetBackgroundColor 50 230 62
+    SetBorderColor 128 0 128
+    SetFontSize 45
+    PlayAlertSound 6 79
+
+Show
+    LinkedSockets = 5
+    SetTextColor 0 0 0
+    SetBackgroundColor 50 230 100
+    SetBorderColor 255 255 255
+    SetFontSize 35
+    PlayAlertSound 3 79
+
+Show
+    BaseType "Exalted Orb" "Divine Orb" "Mirror of Kalandra" "Eternal Orb"
+    SetTextColor 255 215 0
+    SetBackgroundColor 255 40 0 220
+    SetBorderColor 74 0 160 200
+    SetFontSize 40
+    PlayAlertSound 6 79
+
+Show
+    Class "Misc Map Items" "Fishing Rods"
+    SetTextColor 255 215 0
+    SetBackgroundColor 255 40 0 220
+    SetBorderColor 74 0 160 200
+    SetFontSize 40
+    PlayAlertSound 6 79
+
+Show
+    Sockets = 6
+    SetTextColor 0 0 0
+    SetBackgroundColor 27 162 155
+    SetBorderColor 255 255 255
+
+Show
+    BaseType "Jeweller's Orb" "Orb of Alteration" "Orb of Augmentation" "Alchemy Shard" "Alteration Shard" "Transmutation Shard" "Blacksmith's Whetstone" "Armourer's Scrap"
+    SetTextColor 0 0 0
+    SetBackgroundColor 175 96 37
+    SetBorderColor 0 0 0
+    SetFontSize 28
+
+Show
+    BaseType "Blessed Orb" "Orb of Chance" "Chromatic Orb" "Glassblower's Bauble" "Silver Coin"
+    SetTextColor 255 255 255
+    SetBackgroundColor 175 96 37
+    SetBorderColor 0 0 0
+
+Show
+    BaseType "Orb of Alchemy" "Chaos Orb" "Orb of Scouring" "Regal Orb" "Orb of Fusing" "Orb of Regret" "Vaal Orb" "Cartographer's Chisel" "Apprentice Cartographer's Sextant" "Journeyman Cartographer's Sextant" "Master Cartographer's Sextant" "Gemcutter's Prism"
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 128 0
+    SetBorderColor 0 0 0
+    SetFontSize 40
+    PlayAlertSound 1 79
+
+Show
+    Class "Currency" "Stackable Currency"
+    BaseType "Essence of" "Blessing" "Splinter" "Perandus Coin" "Prophecy"
+    SetTextColor 255 255 255
+    SetBackgroundColor 30 144 255
+    SetBorderColor 0 0 0
+    SetFontSize 40
+    PlayAlertSound 2 79
+
+# Section: Tier 2 Loot
+
+Show
+    Rarity = Unique
+    SetTextColor 180 96 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 255 255
+    PlayAlertSound 8 79
+
+Show
+    Class "Jewel" "Labyrinth Item" "Labyrinth Map Item" "Labyrinth Trinket" "Quest Items" "Map Fragments"
+    SetTextColor 255 255 255
+    SetBackgroundColor 74 0 160 200
+    SetBorderColor 255 255 255
+
+Show
+    Class "Leaguestones" "Divination Card"
+    SetTextColor 255 255 255
+    SetBackgroundColor 30 144 255
+    SetFontSize 35
+    PlayAlertSound 2 79
+
+Show
+    Quality >= 10
+    Class "Critical Utility Flasks" "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
+    SetTextColor 0 0 0
+    SetBackgroundColor 231 180 120
+    SetBorderColor 0 0 0
+    SetFontSize 24
+
+Show
+    Quality >= 1
+    Class "Active Skill Gems" "Support Skill Gems"
+    SetTextColor 74 230 58
+    SetBackgroundColor 0 0 0
+
+Show
+    Class "Gems"
+    BaseType "Enlighten Support" "Empower Support" "Item Quantity Support" "Vaal Discipline" "Vaal Haste" "Vaal Breach" "Added Chaos Damage Support" "Enhance Support" "Offering to the Goddess" "Portal"
+    SetTextColor 74 230 58
+    SetBackgroundColor 0 0 0
+
+Show
+    BaseType "Opal Ring" "Crystal Belt" "Steel Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+    SetTextColor 255 255 255
+    SetBackgroundColor 27 162 155
+    SetBorderColor 255 255 255
+    SetFontSize 35
+    PlayAlertSound 9 90
+
+# Section: Maps
+
+Show
+    DropLevel >= 81
+    Class "Maps"
+    SetTextColor 0 0 0
+    SetBackgroundColor 210 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 40
+    PlayAlertSound 4 80
+
+Show
+    DropLevel > 76
+    DropLevel < 81
+    Class "Maps"
+    SetTextColor 255 255 255
+    SetBackgroundColor 150 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 35
+    PlayAlertSound 4 80
+
+Hide
+    DropLevel <= 76
+    Class "Maps"
+    Rarity < Rare
+    ItemLevel >= 75
+    SetTextColor 255 255 255
+
+Show
+    Class "Maps"
+    SetTextColor 255 255 255
+    SetBackgroundColor 255 40 0 220
+    SetBorderColor 255 255 255
+
+# Section: Good Bases
+
+Show
+    BaseType "Vaal Regalia" "Hubris Circlet" "Sorcerer Gloves" "Sorcerer Boots" "Titanium Spirit Shield" "Astral Plate"
+    Rarity = Rare
+    SetTextColor 255 255 255
+    SetBackgroundColor 74 0 160 200
+    SetBorderColor 255 255 255
+    SetFontSize 35
+
+Show
+    BaseType "Talisman"
+    SetTextColor 54 100 146
+    SetBackgroundColor 0 0 0
+    SetBorderColor 54 100 146
+
+Show
+    SocketGroup "RGB"
+    Height = 2
+    Width = 2
+    SetTextColor 255 200 0
+    SetBackgroundColor 0 0 0
+    SetFontSize 30
+
+Show
+    Class "Rings" "Amulets" "Belts"
+    Rarity = Rare
+    SetTextColor 255 255 255
+    SetBackgroundColor 208 32 144
+    SetBorderColor 0 0 0
+
+Show
+    Class "Helmets" "Boots" "Gloves"
+    Rarity = Rare
+    SetTextColor 0 0 0
+    SetBackgroundColor 128 128 128
+    SetFontSize 14
+
+# Section: Hiding All
+
+Hide
+    BaseType "Portal Scroll" "Scroll Fragment" "Scroll of Wisdom" "Orb of Transmutation"
+
+# SHOULD NOT HAPPEN
+Show
+    Class "Currency" "Stackable Currency"
+    SetTextColor 255 192 203
+    SetBackgroundColor 128 0 128
+    SetBorderColor 255 192 203
+
+Hide
+    SetFontSize 18
+
