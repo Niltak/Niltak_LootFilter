@@ -75,7 +75,7 @@ Show
     Height = 2
     Width = 2
     SetTextColor 245 100 89
-    SetBackgroundColor 0 0 0 0
+    SetBackgroundColor 0 0 0 85
     SetBorderColor 245 100 89
 
 Show
@@ -83,7 +83,7 @@ Show
     Height >= 3
     Width = 1
     SetTextColor 245 100 89
-    SetBackgroundColor 0 0 0 0
+    SetBackgroundColor 0 0 0 85
     SetBorderColor 245 100 89
 
 Show
@@ -95,6 +95,11 @@ Show
 
 Show
     Class "Critical Utility Flasks" "Utility Flasks"
+    SetBackgroundColor 119 14 138 # Pots
+
+Show
+    ItemLevel <= 6
+    BaseType "Small Life Flask" "Small Mana Flask"
     SetBackgroundColor 119 14 138 # Pots
 
 Show
@@ -194,9 +199,9 @@ Hide
 
 Show
     LinkedSockets = 3
-    SocketGroup "BB"
+    SocketGroup "BBR" "BBB"
     ItemLevel < 41
-    Rarity >= Magic
+    Rarity <= Magic
     Class "Daggers" "Sceptres" "Wands"
     SetTextColor 0 0 0
     SetBackgroundColor 197 247 234
