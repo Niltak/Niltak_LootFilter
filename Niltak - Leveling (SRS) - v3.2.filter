@@ -199,10 +199,10 @@ Hide
 
 Show
     LinkedSockets = 3
-    SocketGroup "BBR" "BBB"
+    SocketGroup "BBR" "BBB" "BBG"
     ItemLevel < 41
     Rarity <= Magic
-    Class "Daggers" "Sceptres" "Wands"
+    Class "Sceptres" "Wands"
     SetTextColor 0 0 0
     SetBackgroundColor 197 247 234
     SetFontSize 45
