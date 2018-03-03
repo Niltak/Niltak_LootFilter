@@ -24,7 +24,7 @@ Show
     PlayAlertSound 2 79
 
 Show
-    BaseType "Stygian Vise"
+    BaseType "Stygian Vise" "Humility"
     SetTextColor 255 255 255
     SetBackgroundColor 0 128 0
     SetFontSize 45
@@ -200,7 +200,7 @@ Hide
 Show
     LinkedSockets = 3
     SocketGroup "BBR" "BBB" "BBG"
-    ItemLevel < 41
+    ItemLevel <= 35
     Rarity <= Magic
     Class "Sceptres" "Wands"
     SetTextColor 0 0 0
@@ -208,9 +208,16 @@ Show
     SetFontSize 45
 
 Show
-    ItemLevel >= 40
+    ItemLevel >= 34
     Rarity <= Magic
     BaseType "Bone Spirit Shield"
+    SetTextColor 197 247 234
+    SetBorderColor 0 0 0
+    SetFontSize 40
+
+Show
+    Rarity >= Magic
+    BaseType "Angelic Kite Shield" "Archon Kite Shield"
     SetTextColor 197 247 234
     SetBorderColor 0 0 0
     SetFontSize 40
@@ -220,10 +227,16 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Staves" "Bows" "Quivers" "Wands" "One Hand Axes" "One Hand Swords" "Thrusting One Hand Swords" "Daggers" "Shields" "Claws" "One Hand Maces" "Sceptres"
     SetFontSize 28
 
+Hide
+    Rarity = Rare
+    Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Staves"
+    SetFontSize 28
+
 # Section: Leveling Items
 
 Show
     LinkedSockets = 3
+    ItemLevel <= 42
     Class "Helmets" "Gloves" "Body Armours" "Boots"
     SetBackgroundColor 33 2 33
     SetBorderColor 255 40 0
@@ -253,6 +266,14 @@ Show
     SetBorderColor 255 40 0 220 # Ring
 
 Show
+    ItemLevel <= 43
+    Rarity = Normal
+    BaseType "Two-Stone Ring" "Ruby Ring" "Topaz Ring" "Sapphire Ring"
+    SetBorderColor 139 0 0 # Ring
+    SetFontSize 32
+
+Show
+    Rarity > Normal
     BaseType "Two-Stone Ring" "Ruby Ring" "Topaz Ring" "Sapphire Ring"
     SetBorderColor 139 0 0 # Ring
     SetFontSize 32
@@ -263,12 +284,22 @@ Hide
     SetFontSize 26
 
 Show
+    ItemLevel <= 43
+    Rarity = Normal
     Class "Amulets"
     SetBackgroundColor 0 0 0
     SetBorderColor 139 0 0 # Ring
     SetFontSize 32
 
 Show
+    Rarity > Normal
+    Class "Amulets"
+    SetBackgroundColor 0 0 0
+    SetBorderColor 139 0 0 # Ring
+    SetFontSize 32
+
+Show
+    ItemLevel <= 43
     BaseType "Rustic Sash" "Leather Belt" "Heavy Belt"
     SetBorderColor 139 0 0 # Ring
     SetFontSize 30
