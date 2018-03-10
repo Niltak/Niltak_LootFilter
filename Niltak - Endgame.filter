@@ -7,100 +7,100 @@ Hide
 
 Show
     LinkedSockets = 6
-    SetTextColor 255 0 0
-    SetBackgroundColor 255 215 0
-    SetBorderColor 255 255 255
+    SetTextColor 208 32 144
+    SetBackgroundColor 255 255 255
+    SetBorderColor 208 32 144
     SetFontSize 45
     PlayAlertSound 6 79
 
 Show
     ElderItem True
-    SetTextColor 255 215 0
+    SetTextColor 255 200 0
     SetBackgroundColor 0 0 0
-    SetBorderColor 255 215 0
+    SetBorderColor 255 200 0
     SetFontSize 45
     PlayAlertSound 6 79
 
 Show
     ShaperItem True
-    SetTextColor 255 215 0
+    SetTextColor 255 200 0
     SetBackgroundColor 0 0 0
-    SetBorderColor 255 215 0
+    SetBorderColor 255 200 0
     SetFontSize 45
     PlayAlertSound 6 79
 
 Show
     LinkedSockets = 5
-    SetTextColor 255 215 0
-    SetBackgroundColor 128 0 128
-    SetBorderColor 255 200 0
+    SetTextColor 255 255 119
+    SetBackgroundColor 0 100 150 200
+    SetBorderColor 255 255 119
     SetFontSize 35
     PlayAlertSound 3 79
 
 Show
     BaseType "Exalted Orb" "Divine Orb" "Mirror of Kalandra" "Eternal Orb"
-    SetTextColor 255 215 0
-    SetBackgroundColor 255 40 0 220
-    SetBorderColor 74 0 160 200
+    SetTextColor 255 200 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 200 0
     SetFontSize 40
     PlayAlertSound 6 100
 
 Show
     Class "Misc Map Items" "Fishing Rods"
-    SetTextColor 255 215 0
-    SetBackgroundColor 255 40 0 220
-    SetBorderColor 74 0 160 200
+    SetTextColor 255 200 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 200 0
     SetFontSize 40
     PlayAlertSound 6 79
 
 Show
     Sockets = 6
-    SetTextColor 255 200 0
-    SetBackgroundColor 35 111 138
-    SetBorderColor 255 200 0
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 128 0 200
+    SetBorderColor 255 255 255 175
+    PlayAlertSound 1 79
 
 Show
-    BaseType "Jeweller's Orb" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Transmutation"
-    SetTextColor 0 0 0
-    SetBackgroundColor 175 96 37
+    BaseType "Jeweller's Orb" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Transmutation" "Silver Coin"
+    SetTextColor 184 218 242
+    SetBackgroundColor 0 0 0 150
     SetBorderColor 0 0 0
     SetFontSize 28
 
 Show
     BaseType "Portal Scroll"
-    SetTextColor 0 0 0
-    SetBackgroundColor 176 153 126
-    SetBorderColor 0 0 0
-    SetFontSize 12
+    SetTextColor 168 168 168
+    SetBackgroundColor 0 0 0
+    SetFontSize 15
 
 Show
-    BaseType "Blessed Orb" "Orb of Chance" "Chromatic Orb" "Glassblower's Bauble" "Silver Coin" "Orb of Alteration"
+    BaseType "Blessed Orb" "Orb of Chance" "Chromatic Orb" "Glassblower's Bauble" "Orb of Alteration"
     SetTextColor 184 218 242
-    SetBackgroundColor 255 255 255 0
+    SetBackgroundColor 0 0 0 150
     SetBorderColor 184 218 242
     SetFontSize 34
 
 Show
-    BaseType "Net"
+    BaseType "Strong Steel Net" "Reinforced Steel Net"
     SetTextColor 200 200 200
-    SetBackgroundColor 0 0 0 0
+    SetBackgroundColor 0 0 0 160
     SetBorderColor 255 40 0 220
-    SetFontSize 32
+    SetFontSize 30
 
 Show
     BaseType "Orb of Alchemy" "Chaos Orb" "Orb of Scouring" "Regal Orb" "Orb of Fusing" "Orb of Regret" "Vaal Orb" "Cartographer's Chisel" "Apprentice Cartographer's Sextant" "Journeyman Cartographer's Sextant" "Master Cartographer's Sextant" "Gemcutter's Prism" "Orb of Annulment" "Orb of Binding" "Orb of Horizons" "Harbinger's Orb" "Engineer's Orb" "Ancient Orb" "Orb of Annulment"
     SetTextColor 255 255 255
-    SetBackgroundColor 0 128 0
-    SetBorderColor 0 0 0
+    SetBackgroundColor 0 128 0 200
+    SetBorderColor 255 255 255 75
     SetFontSize 40
     PlayAlertSound 1 79
 
 Show
     Class "Currency" "Stackable Currency"
-    BaseType "Essence of" "Blessing" "Splinter" "Perandus Coin" "Prophecy" "Shard" "Remnant of Corruption" "Stacked Deck"
+    BaseType "Essence of" "Blessing" "Splinter" "Perandus Coin" "Prophecy" "Shard" "Remnant of Corruption" "Stacked Deck" "Thaumaturgical Net" "Necromancy Net"
     SetTextColor 255 255 255
-    SetBackgroundColor 30 144 255
-    SetBorderColor 0 0 0
+    SetBackgroundColor 30 144 255 200
+    SetBorderColor 255 255 255 75
     SetFontSize 40
     PlayAlertSound 2 79
 
@@ -108,41 +108,39 @@ Show
 
 Show
     Rarity = Unique
-    SetTextColor 180 96 0
-    SetBackgroundColor 0 0 0
-    SetBorderColor 255 255 255
+    SetTextColor 255 255 255
+    SetBackgroundColor 112 33 86
+    SetBorderColor 255 255 255 200
+    SetFontSize 39
     PlayAlertSound 8 79
 
 Show
     Class "Jewel" "Labyrinth Item" "Labyrinth Map Item" "Labyrinth Trinket" "Quest Items" "Map Fragments" "Pantheon Soul" "Piece" "Abyss Jewel"
     SetTextColor 255 255 255
     SetBackgroundColor 74 0 160 200
-    SetBorderColor 255 255 255
     PlayAlertSound 2 79
 
 Show
     Class "Leaguestones" "Divination Card"
     SetTextColor 255 255 255
-    SetBackgroundColor 30 144 255
+    SetBackgroundColor 27 162 155
     SetFontSize 35
     PlayAlertSound 2 79
 
-#Disabled Block Start
-#Show
-#    Quality >= 10
-#    Class "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Critical Utility Flasks" "Utility Flasks"
-#    SetTextColor 0 0 0
-#    SetBackgroundColor 231 180 120
-#    SetBorderColor 0 0 0
-#    SetFontSize 24
-#Disabled Block End
+Show
+    Quality >= 10
+    Class "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Critical Utility Flasks" "Utility Flasks"
+    SetTextColor 255 255 255
+    SetBackgroundColor 27 162 155 175
+    SetBorderColor 0 0 0
+    SetFontSize 22
 
 Show
     BaseType "Quicksilver Flask"
     SetTextColor 255 255 255
-    SetBackgroundColor 27 162 155
+    SetBackgroundColor 27 162 155 175
     SetBorderColor 0 0 0
-    SetFontSize 24
+    SetFontSize 22
 
 Show
     Quality >= 1
@@ -159,7 +157,7 @@ Show
 Show
     BaseType "Opal Ring" "Crystal Belt" "Steel Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt"
     SetTextColor 255 255 255
-    SetBackgroundColor 27 162 155
+    SetBackgroundColor 74 0 160 200
     SetBorderColor 255 255 255
     SetFontSize 35
     PlayAlertSound 9 90
@@ -194,8 +192,8 @@ Show
     PlayAlertSound 4 80
 
 Hide
-    ItemLevel >= 74
-    DropLevel <= 70
+    ItemLevel >= 75
+    DropLevel <= 69
     Rarity < Rare
     Class "Maps"
     SetTextColor 255 255 255
@@ -203,7 +201,7 @@ Hide
 
 Hide
     ItemLevel >= 77
-    DropLevel <= 72
+    DropLevel <= 71
     Rarity < Rare
     Class "Maps"
     SetTextColor 255 255 255
@@ -220,73 +218,83 @@ Show
 
 Show
     Rarity = Rare
-    BaseType "Two-Toned Boots" "Fingerless Silk Gloves" "Titanium Spirit Shield" "Astral Plate" "Angelic Kite Shield" "Archon Kite Shield" "Vaal Regalia" "Sorcerer" "Hubris Circlet"
-    SetTextColor 0 0 0
-    SetBackgroundColor 197 247 234
+    BaseType "Two-Toned Boots" "Fingerless Silk Gloves" "Bone Helmet"
+    SetTextColor 0 255 212
+    SetBackgroundColor 0 0 0 125
+    SetBorderColor 255 255 255 65
     SetFontSize 30
 
 Show
     Rarity = Rare
     BaseType "Stiletto" "Poignard" "Ambusher" "Skean" "Glass Shank" "Kris" "Darkwood Sceptre" "Grinning Fetish" "Karui Sceptre"
-    SetTextColor 0 0 0
-    SetBackgroundColor 197 247 234
+    SetTextColor 0 255 212
+    SetBackgroundColor 0 0 0 125
+    SetBorderColor 255 255 255 65
     SetFontSize 30
 
 Show
-    BaseType "Bone Helmet"
-    SetTextColor 0 0 0
-    SetBackgroundColor 197 247 234
+    Rarity = Rare
+    BaseType "Titanium Spirit Shield" "Astral Plate" "Vaal Regalia" "Sorcerer" "Hubris Circlet" "Archon Kite Shield" "Angelic Kite Shield"
+    SetTextColor 0 255 212
+    SetBackgroundColor 0 0 0 125
+    SetBorderColor 255 255 255 65
     SetFontSize 30
 
 Show
     SocketGroup "RGB"
     Height = 2
     Width = 2
-    SetTextColor 255 200 0
-    SetBackgroundColor 0 0 0
+    SetTextColor 245 100 89
+    SetBackgroundColor 0 0 0 85
+    SetBorderColor 245 100 89
     SetFontSize 30
 
 Show
     SocketGroup "RGB"
     Height >= 3
     Width = 1
-    SetTextColor 255 200 0
-    SetBackgroundColor 0 0 0
+    SetTextColor 245 100 89
+    SetBackgroundColor 0 0 0 85
+    SetBorderColor 245 100 89
     SetFontSize 30
 
 Show
     Rarity = Rare
     Class "Rings" "Amulets" "Belts"
-    SetTextColor 255 255 255
-    SetBackgroundColor 208 32 144
-    SetBorderColor 0 0 0
-
-Show
-    Rarity = Normal
-    BaseType "Two-Stone Ring" "Jade Amulet"
-    SetTextColor 255 255 255
-    SetBackgroundColor 170 158 130
-    SetBorderColor 255 255 255
-    SetFontSize 28
+    SetTextColor 0 255 212
+    SetBackgroundColor 0 0 0 125
+    SetBorderColor 0 255 212
 
 Show
     Rarity = Rare
-    Class "Helmets" "Gloves" "Boots"
-    SetTextColor 197 247 234
-    SetBackgroundColor 0 0 0
-    SetFontSize 18
-
-# Section: Crafting
+    Class "Helmets" "Gloves"
+    SetTextColor 245 100 89
+    SetBackgroundColor 0 0 0 200
+    SetFontSize 20
 
 #Disabled Block Start
 #Show
-#    ItemLevel >= 84
-#    BaseType "Vaal Regalia" "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves" "Astral Plate" "Hubris Circlet"
-#    SetTextColor 0 0 0
-#    SetBackgroundColor 0 220 162
-#    SetBorderColor 255 255 255
-#    SetFontSize 30
+#    Rarity = Rare
+#    Class "Boots"
+#    SetTextColor 250 137 142
+#    SetBackgroundColor 0 0 0
+#    SetFontSize 20
 #Disabled Block End
+
+# Section: Crafting
+
+Show
+    ItemLevel >= 84
+    BaseType "Vaal Regalia" "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves" "Astral Plate" "Hubris Circlet"
+    SetBackgroundColor 0 0 0 125
+    SetBorderColor 210 0 220
+    SetFontSize 30
+
+Show
+    BaseType "Bone Helmet"
+    SetBackgroundColor 0 0 0 125
+    SetBorderColor 210 0 220
+    SetFontSize 30
 
 #Disabled Block Start
 #Show
@@ -301,7 +309,7 @@ Show
 # Section: Hiding All
 
 Hide
-    BaseType "Scroll Fragment"
+    BaseType "Scroll Fragment" "Net"
 
 # SHOULD NOT HAPPEN
 Show
