@@ -17,7 +17,7 @@ Show
     PlayAlertSound 2 79
 
 Show
-    BaseType "Exalted Orb" "Mirror of Kalandra" "Orb of Alchemy" "Chaos Orb" "Vaal Orb" "Orb of Scouring" "Orb of Fusing" "Regal Orb"
+    BaseType "Exalted Orb" "Mirror of Kalandra" "Orb of Alchemy" "Chaos Orb" "Vaal Orb" "Orb of Scouring" "Orb of Fusing" "Regal Orb" "Orb of Chance" "Vial of"
     SetTextColor 255 255 255
     SetBackgroundColor 0 128 0
     SetFontSize 45
@@ -87,7 +87,7 @@ Show
     SetBorderColor 245 100 89
 
 Show
-    Class "Quest Items" "Labyrinth Item" "Labyrinth Map Item" "Labyrinth Trinket" "Fishing Rods" "Map Fragments" "Maps"
+    Class "Quest Items" "Labyrinth Item" "Labyrinth Map Item" "Labyrinth Trinket" "Fishing Rods" "Map Fragments" "Maps" "Incursion Item"
     SetTextColor 50 230 100
     SetBackgroundColor 0 0 0
 

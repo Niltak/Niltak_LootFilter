@@ -17,14 +17,14 @@ Show
     PlayAlertSound 2 79
 
 Show
-    BaseType "Exalted Orb" "Mirror of Kalandra" "Orb of Alchemy" "Chaos Orb" "Vaal Orb" "Orb of Scouring" "Orb of Fusing" "Regal Orb"
+    BaseType "Exalted Orb" "Mirror of Kalandra" "Orb of Alchemy" "Chaos Orb" "Vaal Orb" "Orb of Scouring" "Orb of Fusing" "Regal Orb" "Orb of Chance" "Vial of"
     SetTextColor 255 255 255
     SetBackgroundColor 0 128 0
     SetFontSize 45
     PlayAlertSound 2 79
 
 Show
-    BaseType "Stygian Vise" "Humility"
+    BaseType "Stygian Vise"
     SetTextColor 255 255 255
     SetBackgroundColor 0 128 0
     SetFontSize 45
@@ -87,7 +87,7 @@ Show
     SetBorderColor 245 100 89
 
 Show
-    Class "Quest Items" "Labyrinth Item" "Labyrinth Map Item" "Labyrinth Trinket" "Fishing Rods" "Map Fragments" "Maps"
+    Class "Quest Items" "Labyrinth Item" "Labyrinth Map Item" "Labyrinth Trinket" "Fishing Rods" "Map Fragments" "Maps" "Incursion Item"
     SetTextColor 50 230 100
     SetBackgroundColor 0 0 0
 
@@ -199,44 +199,31 @@ Hide
 
 Show
     LinkedSockets = 3
-    SocketGroup "BBR" "BBB" "BBG"
-    ItemLevel <= 35
+    ItemLevel < 41
     Rarity <= Magic
-    Class "Sceptres" "Wands"
-    SetTextColor 0 0 0
-    SetBackgroundColor 197 247 234
-    SetFontSize 45
+    Class "Daggers" "Sceptres" "Wands"
+    SetBorderColor 210 0 220
+    SetFontSize 38
 
-Show
-    ItemLevel >= 34
-    Rarity <= Magic
-    BaseType "Bone Spirit Shield"
-    SetTextColor 197 247 234
-    SetBorderColor 0 0 0
-    SetFontSize 40
-
-Show
-    Rarity >= Magic
-    BaseType "Angelic Kite Shield" "Archon Kite Shield"
-    SetTextColor 197 247 234
-    SetBorderColor 0 0 0
-    SetFontSize 40
+#Disabled Block Start
+#Show
+#    ItemLevel >= 40
+#    Rarity <= Magic
+#    BaseType "Bone Spirit Shield"
+#    SetTextColor 197 247 234
+#    SetBorderColor 0 0 0
+#    SetFontSize 40
+#Disabled Block End
 
 Hide
     Rarity < Rare
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Staves" "Bows" "Quivers" "Wands" "One Hand Axes" "One Hand Swords" "Thrusting One Hand Swords" "Daggers" "Shields" "Claws" "One Hand Maces" "Sceptres"
     SetFontSize 28
 
-Hide
-    Rarity = Rare
-    Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Staves"
-    SetFontSize 28
-
 # Section: Leveling Items
 
 Show
     LinkedSockets = 3
-    ItemLevel <= 42
     Class "Helmets" "Gloves" "Body Armours" "Boots"
     SetBackgroundColor 33 2 33
     SetBorderColor 255 40 0
@@ -253,27 +240,19 @@ Show
     SetBackgroundColor 33 2 33 # Armor
     SetBorderColor 255 40 0 # Armor
 
+Show
+    ItemLevel <= 12
+    BaseType "Iron Ring"
+    SetBorderColor 139 0 0 # Ring
+
 #Disabled Block Start
 #Show
-#    ItemLevel <= 12
-#    BaseType "Iron Ring"
+#    ItemLevel <= 16
+#    BaseType "Ruby Ring"
 #    SetBorderColor 139 0 0 # Ring
 #Disabled Block End
 
 Show
-    ItemLevel <= 16
-    BaseType "Ruby Ring"
-    SetBorderColor 255 40 0 220 # Ring
-
-Show
-    ItemLevel <= 43
-    Rarity = Normal
-    BaseType "Two-Stone Ring" "Ruby Ring" "Topaz Ring" "Sapphire Ring"
-    SetBorderColor 139 0 0 # Ring
-    SetFontSize 32
-
-Show
-    Rarity > Normal
     BaseType "Two-Stone Ring" "Ruby Ring" "Topaz Ring" "Sapphire Ring"
     SetBorderColor 139 0 0 # Ring
     SetFontSize 32
@@ -284,22 +263,12 @@ Hide
     SetFontSize 26
 
 Show
-    ItemLevel <= 43
-    Rarity = Normal
     Class "Amulets"
     SetBackgroundColor 0 0 0
     SetBorderColor 139 0 0 # Ring
     SetFontSize 32
 
 Show
-    Rarity > Normal
-    Class "Amulets"
-    SetBackgroundColor 0 0 0
-    SetBorderColor 139 0 0 # Ring
-    SetFontSize 32
-
-Show
-    ItemLevel <= 43
     BaseType "Rustic Sash" "Leather Belt" "Heavy Belt"
     SetBorderColor 139 0 0 # Ring
     SetFontSize 30
