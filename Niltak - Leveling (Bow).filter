@@ -1,0 +1,295 @@
+﻿# Script edited with Filtration - https://github.com/ben-wallis/Filtration
+# Section: First Zone
+# Section: Important
+
+Show
+    Rarity = Unique
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 128 0
+    SetFontSize 45
+    PlayAlertSound 2 79
+
+Show
+    LinkedSockets >= 5
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 128 0
+    SetFontSize 45
+    PlayAlertSound 2 79
+
+Show
+    BaseType "Exalted Orb" "Mirror of Kalandra" "Orb of Alchemy" "Chaos Orb" "Vaal Orb" "Orb of Scouring" "Orb of Fusing" "Regal Orb" "Orb of Chance" "Vial of"
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 128 0
+    SetFontSize 45
+    PlayAlertSound 2 79
+
+Show
+    BaseType "Stygian Vise"
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 128 0
+    SetFontSize 45
+    PlayAlertSound 2 79
+
+Show
+    Quality > 0
+    Class "Active Skill Gems" "Support Skill Gems" "Critical Utility Flasks" "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
+    SetTextColor 255 255 255
+    SetBackgroundColor 30 144 255
+    SetBorderColor 255 255 255
+
+Show
+    BaseType "Portal Scroll" "Scroll of Wisdom"
+    SetTextColor 136 136 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 30
+
+Show
+    BaseType "Blacksmith's Whetstone" "Armourer's Scrap"
+    SetTextColor 231 180 120
+    SetBackgroundColor 0 0 0
+    SetFontSize 30
+
+Show
+    Class "Currency" "Jewel" "Divination Card" "Abyss Jewel"
+    SetTextColor 255 255 255
+    SetBackgroundColor 30 144 255
+    SetFontSize 42
+
+Show
+    Sockets = 6
+    SetTextColor 255 255 255
+    SetBackgroundColor 30 144 255
+    SetFontSize 42
+    PlayAlertSound 1 85
+
+Show
+    Class "Active Skill Gems" "Support Skill Gems"
+    BaseType "Enlighten Support" "Detonate Mines" "Empower Support" "Enhance Support" "Portal" "Added Chaos Damage Support" "Vaal"
+    SetTextColor 255 255 255
+    SetBackgroundColor 30 144 255
+    SetFontSize 42
+    PlayAlertSound 1 85
+
+Show
+    SocketGroup "RGB"
+    Height = 2
+    Width = 2
+    SetTextColor 245 100 89
+    SetBackgroundColor 0 0 0 85
+    SetBorderColor 245 100 89
+
+Show
+    SocketGroup "RGB"
+    Height >= 3
+    Width = 1
+    SetTextColor 245 100 89
+    SetBackgroundColor 0 0 0 85
+    SetBorderColor 245 100 89
+
+Show
+    Class "Quest Items" "Labyrinth Item" "Labyrinth Map Item" "Labyrinth Trinket" "Fishing Rods" "Map Fragments" "Maps" "Incursion Item"
+    SetTextColor 50 230 100
+    SetBackgroundColor 0 0 0
+
+# Section: Leveling Potions
+
+Show
+    Class "Critical Utility Flasks" "Utility Flasks"
+    SetBackgroundColor 119 14 138 # Pots
+
+Show
+    ItemLevel <= 6
+    BaseType "Small Life Flask" "Small Mana Flask"
+    SetBackgroundColor 119 14 138 # Pots
+
+Show
+    ItemLevel <= 14
+    BaseType "Medium Life Flask" "Medium Mana Flask"
+    SetBackgroundColor 119 14 138 # Pots
+
+Show
+    ItemLevel <= 18
+    BaseType "Large Life Flask" "Large Mana Flask"
+    SetBackgroundColor 119 14 138 # Pots
+
+Show
+    ItemLevel <= 24
+    BaseType "Greater Life Flask" "Greater Mana Flask"
+    SetBackgroundColor 119 14 138 # Pots
+
+Show
+    ItemLevel <= 30
+    BaseType "Grand Life Flask" "Grand Mana Flask"
+    SetBackgroundColor 119 14 138 # Pots
+
+Show
+    ItemLevel <= 36
+    BaseType "Giant Life Flask" "Giant Mana Flask"
+    SetBackgroundColor 119 14 138 # Pots
+
+Show
+    ItemLevel <= 42
+    BaseType "Colossal Life Flask" "Colossal Mana Flask"
+    SetBackgroundColor 119 14 138 # Pots
+
+Show
+    ItemLevel <= 50
+    BaseType "Sacred Life Flask" "Sacred Mana Flask"
+    SetBackgroundColor 119 14 138 # Pots
+
+Show
+    ItemLevel <= 60
+    BaseType "Hallowed Life Flask" "Hallowed Mana Flask"
+    SetBackgroundColor 119 14 138 # Pots
+
+Show
+    ItemLevel <= 68
+    BaseType "Sanctified Life Flask" "Sanctified Mana Flask"
+    SetBackgroundColor 119 14 138 # Pots
+
+Show
+    BaseType "Divine Life Flask" "Divine Mana Flask" "Eternal Life Flask" "Eternal Mana Flask"
+    SetBackgroundColor 119 14 138 # Pots
+
+Hide
+    Class "Hybrid Flasks" "Life Flasks" "Mana Flasks"
+    SetBackgroundColor 119 14 138 # Pots
+
+# Section: Leveling Weapons
+
+#Disabled Block Start
+#Show
+#    ItemLevel < 15
+#    BaseType "Jade Hatchet" "Copper Sword"
+#    SetBorderColor 210 0 220
+#    SetFontSize 32
+#Disabled Block End
+
+#Disabled Block Start
+#Show
+#    ItemLevel < 24
+#    BaseType "Boarding Axe"
+#    SetBorderColor 210 0 220
+#    SetFontSize 32
+#Disabled Block End
+
+#Disabled Block Start
+#Show
+#    ItemLevel < 38
+#    BaseType "War Hammer" "Broad Axe" "Decorative Axe" "Arming Axe"
+#    SetBorderColor 210 0 220
+#    SetFontSize 32
+#Disabled Block End
+
+#Disabled Block Start
+#Show
+#    ItemLevel < 45
+#    BaseType "Spectral Axe" "Jasper Axe" "Barbed Club"
+#    SetBorderColor 210 0 220
+#    SetFontSize 32
+#Disabled Block End
+
+#Disabled Block Start
+#Show
+#    ItemLevel < 55
+#    BaseType "Tomahawk" "Battle Hammer" "War Axe"
+#    SetBorderColor 210 0 220
+#    SetFontSize 32
+#Disabled Block End
+
+Show
+    Class "Bows"
+    SetBorderColor 210 0 220
+    SetFontSize 38
+
+Show
+    ItemLevel <= 30
+    Rarity >= Magic
+    Class "Quivers"
+    SetBorderColor 210 0 220
+    SetFontSize 38
+
+Show
+    ItemLevel > 30
+    Rarity >= Magic
+    BaseType "Broadhead Arrow Quiver" "Penetrating Arrow Quiver" "Spike-Point Arrow Quiver"
+    SetBorderColor 210 0 220
+    SetFontSize 38
+
+#Disabled Block Start
+#Show
+#    ItemLevel >= 40
+#    Rarity <= Magic
+#    BaseType "Bone Spirit Shield"
+#    SetTextColor 197 247 234
+#    SetBorderColor 0 0 0
+#    SetFontSize 40
+#Disabled Block End
+
+Hide
+    Rarity < Rare
+    Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Staves" "Bows" "Quivers" "Wands" "One Hand Axes" "One Hand Swords" "Thrusting One Hand Swords" "Daggers" "Shields" "Claws" "One Hand Maces" "Sceptres"
+    SetFontSize 28
+
+# Section: Leveling Items
+
+Show
+    LinkedSockets = 3
+    Class "Helmets" "Gloves" "Body Armours" "Boots"
+    SetBackgroundColor 33 2 33
+    SetBorderColor 255 40 0
+
+Show
+    LinkedSockets = 4
+    Class "Helmets" "Gloves" "Body Armours" "Boots"
+    SetBackgroundColor 33 2 33 # Armor
+    SetBorderColor 255 40 0 # Armor
+
+Show
+    Rarity > Normal
+    Class "Boots"
+    SetBackgroundColor 33 2 33 # Armor
+    SetBorderColor 255 40 0 # Armor
+
+Show
+    ItemLevel <= 12
+    BaseType "Iron Ring"
+    SetBorderColor 139 0 0 # Ring
+
+#Disabled Block Start
+#Show
+#    ItemLevel <= 16
+#    BaseType "Ruby Ring"
+#    SetBorderColor 139 0 0 # Ring
+#Disabled Block End
+
+Show
+    BaseType "Two-Stone Ring" "Ruby Ring" "Topaz Ring" "Sapphire Ring"
+    SetBorderColor 139 0 0 # Ring
+    SetFontSize 32
+
+Hide
+    BaseType "Paua Amulet" "Coral Amulet"
+    SetBorderColor 139 0 0 # Ring
+    SetFontSize 26
+
+Show
+    Class "Amulets"
+    SetBackgroundColor 0 0 0
+    SetBorderColor 139 0 0 # Ring
+    SetFontSize 32
+
+Show
+    BaseType "Rustic Sash" "Leather Belt" "Heavy Belt"
+    SetBorderColor 139 0 0 # Ring
+    SetFontSize 30
+
+Hide
+    Rarity < Rare
+    Class "Belts" "Helmets" "Gloves" "Body Armours" "Boots" "Rings" "Active Skill Gems" "Support Skill Gems"
+    SetFontSize 26
+
+Show
+    Rarity = Rare
+    SetFontSize 24
+
