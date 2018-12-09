@@ -1,7 +1,7 @@
 ﻿# Script edited with Filtration - https://github.com/ben-wallis/Filtration
 
 Hide
-    BaseType "Transmutation Shard" "Scroll of Wisdom"
+    BaseType "Transmutation Shard" "Scroll of Wisdom" "Potent Alchemical Resonator" "Primitive Alchemical Resonator" "Powerful Alchemical Resonator" "Powerful Chaotic Resonator" "Scroll Fragment"
 
 # Section: Most Value
 
@@ -25,7 +25,7 @@ Show
 
 Show
     ShaperItem True
-    SetTextColor 255 215 0
+    SetTextColor 255 200 0
     SetBackgroundColor 0 100 150 200
     SetBorderColor 255 215 0 170
     SetFontSize 45
@@ -40,7 +40,7 @@ Show
     PlayAlertSound 3 79
 
 Show
-    BaseType "Exalted Orb" "Divine Orb" "Mirror of Kalandra" "Eternal Orb" "Humility" "Reliquary Key"
+    BaseType "Exalted Orb" "Divine Orb" "Mirror of Kalandra" "Eternal Orb" "Reliquary Key"
     SetTextColor 255 200 0
     SetBackgroundColor 0 0 0
     SetBorderColor 255 200 0
@@ -66,7 +66,7 @@ Show
     MinimapIcon 2 Green Hexagon
 
 Show
-    BaseType "Jeweller's Orb" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Transmutation" "Silver Coin"
+    BaseType "Blacksmith's Whetstone" "Orb of Transmutation" "Silver Coin"
     SetTextColor 184 218 242
     SetBackgroundColor 0 0 0 150
     SetBorderColor 0 0 0
@@ -95,7 +95,7 @@ Show
     MinimapIcon 1 Green Hexagon
 
 Show
-    Class "Currency" "Stackable Currency" "Delve Socketable Currency"
+    Class "Currency" "Stackable Currency"
     BaseType "Essence of" "Blessing" "Splinter" "Perandus Coin" "Prophecy" "Shard" "Remnant of Corruption" "Stacked Deck" "Thaumaturgical Net" "Necromancy Net"
     SetTextColor 255 255 255
     SetBackgroundColor 30 144 255 200
@@ -114,7 +114,7 @@ Show
 
 Show
     Class "Stackable Currency" "Delve Socketable Currency"
-    BaseType "Vial of" "Fossil" "Potent Chaotic Resonator" "Primitive Chaotic Resonator" "Powerful Alchemical Resonator" "Powerful Chaotic Resonator" "Prime Alchemical Resonator" "Prime Chaotic Resonator"
+    BaseType "Fossil" "Resonator"
     SetTextColor 255 255 255
     SetBackgroundColor 0 128 0 200
     SetBorderColor 255 255 255 75
@@ -139,32 +139,36 @@ Show
     SetTextColor 255 255 255
     SetBackgroundColor 74 0 160 200
     SetBorderColor 255 255 255 125
+    SetFontSize 28
+
+Hide
+    Class "Divination Card"
+    BaseType "Cartographer's Delight" "Prosperity" "Rain Tempter" "Struck by Lightning" "The Scholar" "The Carrion Crow" "The Surgeon" "The Twins" "Thunderous Skies"
+    SetTextColor 255 255 255
+    SetBackgroundColor 27 133 162 120
+    SetBorderColor 255 255 255 175
+    SetFontSize 28
+    PlayAlertSound 2 79
 
 Show
-    Class "Leaguestones" "Divination Card"
+    Class "Divination Card"
+    BaseType "The Wind" "The Valley of Steel Boxes" "The Undaunted" "The Void" "The Valkyrie" "The Risk" "The Queen" "The Porcupine" "Humility" "The Offering" "The Master" "The Mayor" "The King's Heart" "The Immortal" "The Fiend" "The Drunken Aristocrat" "The Dragon's Heart" "The Doctor" "The Cartographer" "Pride Before the Fall" "Chaotic Disposition" "Boon of the First Ones" "Abandoned Wealth"
     SetTextColor 255 255 255
-    SetBackgroundColor 27 133 162
+    SetBackgroundColor 27 133 162 150
     SetBorderColor 255 255 255 175
     SetFontSize 35
     PlayAlertSound 2 79
 
-#Show
-#    Quality >= 10
-#    Class "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Critical Utility Flasks" "Utility Flasks"
-#    SetTextColor 255 255 255
-#    SetBackgroundColor 27 162 155 175
-#    SetBorderColor 0 0 0
-#    SetFontSize 22
-
-#Show
-#    BaseType "Quicksilver Flask" "Jade Flask" "Basalt Flask" "Diamond Flask"
-#    SetTextColor 255 255 255
-#    SetBackgroundColor 27 162 155 175
-#    SetBorderColor 0 0 0
-#    SetFontSize 22
+Show
+    Class "Divination Card"
+    SetTextColor 255 255 255
+    SetBackgroundColor 27 133 162 120
+    SetBorderColor 255 255 255 175
+    SetFontSize 28
+    PlayAlertSound 2 79
 
 Show
-    Quality >= 1
+    Quality >= 10
     Class "Active Skill Gems" "Support Skill Gems"
     SetTextColor 74 230 58
     SetBackgroundColor 0 0 0
@@ -195,7 +199,7 @@ Show
     SetBorderColor 255 255 255 125
     SetFontSize 43
     PlayAlertSound 4 80
-    MinimapIcon 0 Yellow Diamond
+    MinimapIcon 0 Red Diamond
     PlayEffect Red
 
 Show
@@ -203,8 +207,7 @@ Show
     SetTextColor 255 255 255
     SetBackgroundColor 115 10 10 215
     SetBorderColor 255 255 255 125
-    PlayAlertSound 4 80
-    MinimapIcon 0 Red Diamond
+    MinimapIcon 2 Red Diamond
     PlayEffect Red
 
 # Section: Good Bases
@@ -219,7 +222,7 @@ Show
 
 Show
     Rarity = Rare
-    BaseType "Void Sceptre" "Opal Sceptre" "Vaal Sceptre"
+    BaseType "Void Sceptre" "Ambusher"
     SetTextColor 0 255 212
     SetBackgroundColor 0 0 0 125
     SetBorderColor 255 255 255 65
@@ -227,71 +230,36 @@ Show
 
 Show
     Rarity = Rare
-    BaseType "Titanium Spirit Shield" "Astral Plate" "Vaal Regalia" "Sorcerer" "Hubris Circlet" "Archon Kite Shield" "Angelic Kite Shield" "Slink Boots" "Stealth Boots" "Imperial Buckler"
+    BaseType "Astral Plate" "Vaal Regalia" "Sorcerer" "Hubris Circlet" "Archon Kite Shield" "Imperial Buckler" "Lion Pelt" "Eternal Burgonet" "Slink" "Titan"
     SetTextColor 0 255 212
     SetBackgroundColor 0 0 0 125
     SetBorderColor 255 255 255 65
     SetFontSize 30
 
-#Show
-#    Rarity = Rare
-#    BaseType "Thicket Bow" "Grove Bow" "Short Bow" "Maraketh Bow" "Harbinger Bow" "Penetrating Arrow Quiver" "Spike-Point Arrow Quiver"
-#    SetTextColor 0 255 212
-#    SetBackgroundColor 0 0 0 125
-#    SetBorderColor 255 255 255 65
-#    SetFontSize 30
-
 Show
-    SocketGroup "RGB"
-    Height = 2
-    Width = 2
     Rarity = Rare
-    SetTextColor 255 255 255
-    SetBackgroundColor 245 100 89 156
-    SetBorderColor 255 255 255 75
+    BaseType "Penetrating Arrow Quiver" "Spike-Point Arrow Quiver"
+    SetTextColor 0 255 212
+    SetBackgroundColor 0 0 0 125
+    SetBorderColor 255 255 255 65
     SetFontSize 30
 
-Show
-    SocketGroup "RGB"
-    Height = 2
-    Width = 2
-    SetTextColor 245 100 89
-    SetBackgroundColor 0 0 0 85
-    SetBorderColor 245 100 89
-    SetFontSize 30
-
-Show
-    SocketGroup "RGB"
-    Height >= 3
-    Width = 1
-    SetTextColor 245 100 89
-    SetBackgroundColor 0 0 0 85
-    SetBorderColor 245 100 89
-    SetFontSize 30
+Hide
+    Rarity = Rare
+    BaseType "Studded Belt" "Cloth Belt" "Coral Ring" "Gold Ring" "Gold Amulet" "Paua Amulet" "Paua Ring" "Chain Belt"
+    SetTextColor 0 255 212
+    SetBackgroundColor 0 0 0 125
+    SetBorderColor 0 255 212 150
 
 Show
     Rarity = Rare
     Class "Rings" "Amulets" "Belts"
     SetTextColor 0 255 212
     SetBackgroundColor 0 0 0 125
-    SetBorderColor 0 255 212
+    SetBorderColor 0 255 212 150
 
 Show
-    Rarity = Rare
-    Class "Helmets" "Gloves"
-    SetTextColor 245 100 89
-    SetBackgroundColor 0 0 0 200
-    SetFontSize 20
-
-Show
-    Rarity = Rare
-    Class "Boots"
-    SetTextColor 250 137 142
-    SetBackgroundColor 0 0 0
-    SetFontSize 20
-
-Show
-    BaseType "Angelic Kite Shield" "Archon Kite Shield"
+    BaseType "Sapphire Flask"
     SetBackgroundColor 0 0 0 125
     SetBorderColor 255 255 0 100
     SetFontSize 35
@@ -304,88 +272,10 @@ Show
     SetBorderColor 163 141 109
     SetFontSize 24
 
-# Section: Crafting
-
-#Show
-#    ItemLevel >= 84
-#    BaseType "Vaal Regalia" "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves" "Astral Plate" "Hubris Circlet"
-#    SetBackgroundColor 0 0 0 125
-#    SetBorderColor 210 0 220
-#    SetFontSize 30
-
-Show
-    ItemLevel >= 84
-    Class "Boots" "Gloves"
-    BaseType "Dragonscale" "Sorcerer" "Slink" "Titan" "Assassin's" "Crusader"
-    SetTextColor 255 255 255
-    SetBackgroundColor 0 0 0 125
-    SetBorderColor 210 0 220
-    SetFontSize 24
-
-Show
-    ItemLevel >= 84
-    Class "Helmets"
-    BaseType "Lion Pelt" "Hubris Circlet" "Eternal Burgonet" "Praetor Crown" "Nightmare Bascinet" "Deicide Mask"
-    SetTextColor 255 255 255
-    SetBackgroundColor 0 0 0 125
-    SetBorderColor 210 0 220
-    SetFontSize 24
-
-Show
-    ItemLevel >= 84
-    Class "Shields"
-    BaseType "Angelic Kite Shield" "Archon Kite Shield" "Titanium Spirit Shield" "Pinnacle Tower Shield" "Elegant Round Shield" "Supreme Spiked Shield" "Imperial Buckler" "Colossal Tower Shield"
-    SetTextColor 255 255 255
-    SetBackgroundColor 0 0 0 125
-    SetBorderColor 210 0 220
-    SetFontSize 24
-
-Show
-    ItemLevel >= 84
-    Class "Body Armours"
-    BaseType "Carnal Armour" "Saintly Chainmail" "Triumphant Lamellar" "Vaal Regalia" "Assassin's Garb" "Glorious Plate"
-    SetTextColor 255 255 255
-    SetBackgroundColor 0 0 0 125
-    SetBorderColor 210 0 220
-    SetFontSize 24
-
-Show
-    ItemLevel >= 84
-    Class "Bows" "Claws" "Daggers" "One Hand Axes" "Two Hand Axes" "One Hand Maces" "Two Hand Maces" "One Hand Swords" "Thrusting One Hand Swords" "Two Hand Swords" "Sceptres" "Staves" "Wands"
-    BaseType "Harbinger Bow" "Maraketh Bow" "Thicket Bow" "Imperial Claw" "Terror Claw" "Gemini Claw" "Sai" "Ambusher" "Demon Dagger" "Siege Axe" "Runic Hatchet" "Infernal Axe" "Behemoth Mace" "Eternal Sword" "Tiger Hook" "Midnight Blade" "Vaal Sceptre" "Void Sceptre" "Sambar Sceptre" "Eclipse Staff" "Dragoon Sword" "Jewelled Foil" "Harpy Rapier" "Fleshripper" "Vaal Axe" "Coronal Maul" "Meatgrinder" "Exquisite Blade" "Vaal Greatsword" "Lion Sword" "Profane Wand" "Prophecy Wand" "Imbued Wand"
-    SetTextColor 255 255 255
-    SetBackgroundColor 0 0 0 125
-    SetBorderColor 210 0 220
-    SetFontSize 24
-
-Show
-    ItemLevel >= 84
-    Class "Rings" "Amulets" "Belts"
-    SetTextColor 255 255 255
-    SetBackgroundColor 0 0 0 125
-    SetBorderColor 210 0 220
-    SetFontSize 24
-
-Show
-    ItemLevel >= 84
-    BaseType "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver" "Broadhead Arrow Quiver"
-    SetTextColor 255 255 255
-    SetBackgroundColor 0 0 0 125
-    SetBorderColor 210 0 220
-    SetFontSize 24
-
-#Show
-#    ItemLevel >= 84
-#    BaseType "Moonstone Ring" "Two-Stone Ring" "Citrine Amulet" "Agate Amulet" "Turquoise Amulet"
-#    SetTextColor 0 0 0
-#    SetBackgroundColor 0 220 162
-#    SetBorderColor 255 255 255
-#    SetFontSize 23
-
 # Section: Hiding All
 
 Hide
-    BaseType "Scroll Fragment" "Net" "Primitive Alchemical Resonator" "Potent Alchemical Resonator"
+    BaseType "Orb of Augmentation" "Jeweller's Orb" "Armourer's Scrap"
 
 # SHOULD NOT HAPPEN
 Show

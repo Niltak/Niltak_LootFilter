@@ -91,6 +91,12 @@ Show
     SetTextColor 50 230 100
     SetBackgroundColor 0 0 0
 
+Show
+    Identified True
+    Rarity > Normal
+    SetTextColor 184 218 242
+    SetBackgroundColor 0 0 0
+
 # Section: Leveling Potions
 
 Show
@@ -157,45 +163,35 @@ Hide
 
 # Section: Leveling Weapons
 
-#Disabled Block Start
 #Show
 #    ItemLevel < 15
 #    BaseType "Jade Hatchet" "Copper Sword"
 #    SetBorderColor 210 0 220
 #    SetFontSize 32
-#Disabled Block End
 
-#Disabled Block Start
 #Show
 #    ItemLevel < 24
 #    BaseType "Boarding Axe"
 #    SetBorderColor 210 0 220
 #    SetFontSize 32
-#Disabled Block End
 
-#Disabled Block Start
 #Show
 #    ItemLevel < 38
 #    BaseType "War Hammer" "Broad Axe" "Decorative Axe" "Arming Axe"
 #    SetBorderColor 210 0 220
 #    SetFontSize 32
-#Disabled Block End
 
-#Disabled Block Start
 #Show
 #    ItemLevel < 45
 #    BaseType "Spectral Axe" "Jasper Axe" "Barbed Club"
 #    SetBorderColor 210 0 220
 #    SetFontSize 32
-#Disabled Block End
 
-#Disabled Block Start
 #Show
 #    ItemLevel < 55
 #    BaseType "Tomahawk" "Battle Hammer" "War Axe"
 #    SetBorderColor 210 0 220
 #    SetFontSize 32
-#Disabled Block End
 
 Show
     LinkedSockets = 3
@@ -205,7 +201,6 @@ Show
     SetBorderColor 210 0 220
     SetFontSize 38
 
-#Disabled Block Start
 #Show
 #    ItemLevel >= 40
 #    Rarity <= Magic
@@ -213,7 +208,6 @@ Show
 #    SetTextColor 197 247 234
 #    SetBorderColor 0 0 0
 #    SetFontSize 40
-#Disabled Block End
 
 Hide
     Rarity < Rare
@@ -245,12 +239,10 @@ Show
     BaseType "Iron Ring"
     SetBorderColor 139 0 0 # Ring
 
-#Disabled Block Start
 #Show
 #    ItemLevel <= 16
 #    BaseType "Ruby Ring"
 #    SetBorderColor 139 0 0 # Ring
-#Disabled Block End
 
 Show
     BaseType "Two-Stone Ring" "Ruby Ring" "Topaz Ring" "Sapphire Ring"

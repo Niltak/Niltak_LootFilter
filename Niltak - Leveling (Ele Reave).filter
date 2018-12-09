@@ -17,12 +17,11 @@ Show
     PlayAlertSound 2 79
 
 Show
-    BaseType "Exalted Orb" "Mirror of Kalandra" "Orb of Alchemy" "Chaos Orb" "Vaal Orb" "Orb of Scouring" "Orb of Fusing" "Regal Orb" "Orb of Chance" "Vial of" "Fossil" "Resonator" "Reliquary Key"
+    BaseType "Exalted Orb" "Mirror of Kalandra" "Orb of Alchemy" "Chaos Orb" "Vaal Orb" "Orb of Scouring" "Orb of Fusing" "Regal Orb"
     SetTextColor 255 255 255
     SetBackgroundColor 0 128 0
     SetFontSize 45
     PlayAlertSound 2 79
-    MinimapIcon 1 Green Circle
 
 Show
     BaseType "Stygian Vise"
@@ -88,7 +87,7 @@ Show
     SetBorderColor 245 100 89
 
 Show
-    Class "Quest Items" "Labyrinth Item" "Labyrinth Map Item" "Labyrinth Trinket" "Fishing Rods" "Map Fragments" "Maps" "Incursion Item"
+    Class "Quest Items" "Labyrinth Item" "Labyrinth Map Item" "Labyrinth Trinket" "Fishing Rods" "Map Fragments" "Maps"
     SetTextColor 50 230 100
     SetBackgroundColor 0 0 0
 
@@ -158,36 +157,52 @@ Hide
 
 # Section: Leveling Weapons
 
+#Disabled Block Start
+#Show
+#    ItemLevel < 15
+#    BaseType "Jade Hatchet" "Copper Sword"
+#    SetBorderColor 210 0 220
+#    SetFontSize 32
+#Disabled Block End
+
+#Disabled Block Start
+#Show
+#    ItemLevel < 24
+#    BaseType "Boarding Axe"
+#    SetBorderColor 210 0 220
+#    SetFontSize 32
+#Disabled Block End
+
+#Disabled Block Start
+#Show
+#    ItemLevel < 38
+#    BaseType "War Hammer" "Broad Axe" "Decorative Axe" "Arming Axe"
+#    SetBorderColor 210 0 220
+#    SetFontSize 32
+#Disabled Block End
+
+#Disabled Block Start
+#Show
+#    ItemLevel < 45
+#    BaseType "Spectral Axe" "Jasper Axe" "Barbed Club"
+#    SetBorderColor 210 0 220
+#    SetFontSize 32
+#Disabled Block End
+
+#Disabled Block Start
+#Show
+#    ItemLevel < 55
+#    BaseType "Tomahawk" "Battle Hammer" "War Axe"
+#    SetBorderColor 210 0 220
+#    SetFontSize 32
+#Disabled Block End
+
 Show
-    ItemLevel < 15
-    BaseType "Jade Hatchet" "Copper Sword"
+    Class "Claws" "Sceptres"
     SetBorderColor 210 0 220
     SetFontSize 32
 
-Show
-    ItemLevel < 24
-    BaseType "Boarding Axe"
-    SetBorderColor 210 0 220
-    SetFontSize 32
-
-Show
-    ItemLevel < 38
-    BaseType "War Hammer" "Broad Axe" "Decorative Axe" "Arming Axe"
-    SetBorderColor 210 0 220
-    SetFontSize 32
-
-Show
-    ItemLevel < 45
-    BaseType "Spectral Axe" "Jasper Axe" "Barbed Club"
-    SetBorderColor 210 0 220
-    SetFontSize 32
-
-Show
-    ItemLevel < 55
-    BaseType "Tomahawk" "Battle Hammer" "War Axe"
-    SetBorderColor 210 0 220
-    SetFontSize 32
-
+#Disabled Block Start
 #Show
 #    LinkedSockets = 3
 #    SocketGroup "BB"
@@ -197,7 +212,9 @@ Show
 #    SetTextColor 0 0 0
 #    SetBackgroundColor 197 247 234
 #    SetFontSize 45
+#Disabled Block End
 
+#Disabled Block Start
 #Show
 #    ItemLevel >= 40
 #    Rarity <= Magic
@@ -205,6 +222,7 @@ Show
 #    SetTextColor 197 247 234
 #    SetBorderColor 0 0 0
 #    SetFontSize 40
+#Disabled Block End
 
 Hide
     Rarity < Rare
@@ -236,10 +254,12 @@ Show
     BaseType "Iron Ring"
     SetBorderColor 139 0 0 # Ring
 
+#Disabled Block Start
 #Show
 #    ItemLevel <= 16
 #    BaseType "Ruby Ring"
 #    SetBorderColor 139 0 0 # Ring
+#Disabled Block End
 
 Show
     BaseType "Two-Stone Ring" "Ruby Ring" "Topaz Ring" "Sapphire Ring"

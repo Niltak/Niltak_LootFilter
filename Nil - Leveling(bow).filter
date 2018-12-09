@@ -159,52 +159,9 @@ Hide
 # Section: Leveling Weapons
 
 Show
-    ItemLevel < 15
-    BaseType "Jade Hatchet" "Copper Sword"
+    Class "Bows" "Quivers"
     SetBorderColor 210 0 220
     SetFontSize 32
-
-Show
-    ItemLevel < 24
-    BaseType "Boarding Axe"
-    SetBorderColor 210 0 220
-    SetFontSize 32
-
-Show
-    ItemLevel < 38
-    BaseType "War Hammer" "Broad Axe" "Decorative Axe" "Arming Axe"
-    SetBorderColor 210 0 220
-    SetFontSize 32
-
-Show
-    ItemLevel < 45
-    BaseType "Spectral Axe" "Jasper Axe" "Barbed Club"
-    SetBorderColor 210 0 220
-    SetFontSize 32
-
-Show
-    ItemLevel < 55
-    BaseType "Tomahawk" "Battle Hammer" "War Axe"
-    SetBorderColor 210 0 220
-    SetFontSize 32
-
-#Show
-#    LinkedSockets = 3
-#    SocketGroup "BB"
-#    ItemLevel < 41
-#    Rarity <= Magic
-#    Class "Daggers" "Sceptres" "Wands"
-#    SetTextColor 0 0 0
-#    SetBackgroundColor 197 247 234
-#    SetFontSize 45
-
-#Show
-#    ItemLevel >= 40
-#    Rarity <= Magic
-#    BaseType "Bone Spirit Shield"
-#    SetTextColor 197 247 234
-#    SetBorderColor 0 0 0
-#    SetFontSize 40
 
 Hide
     Rarity < Rare
